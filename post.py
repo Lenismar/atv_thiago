@@ -16,7 +16,7 @@
 # fonte compatível.
 
 
-nome_perfil = "THIAGO_REI_DElas"
+nome_perfil = "THIAGO"
 localidade = "Brasil"
 idade = 20
 conteudo_post = "Hoje aprendi sobre variáveis em Python!\nÉ incrível como podemos guardar informações e usá-las no código."
