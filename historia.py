@@ -21,8 +21,11 @@ if escolha1 == "A":
         print("\nVocê se desprendeu da nave e não conseguiu voltar...")
         print("FICOU À DERIVA NO ESPAÇO. ☠")
     else:
-        print("\nCom segurança você consertou tudo e continuou a viagem!")
-        print("MISSÃO CUMPRIDA, CHEGOU EM MARTE! 🚀")
+        if escolha2 == "B":
+            print("\nCom segurança você consertou tudo e continuou a viagem!")
+            print("MISSÃO CUMPRIDA, CHEGOU EM MARTE! 🚀")
+        else:
+            print("\nOpção inválida! Digite apenas A ou B.")
 
 elif escolha1 == "B":
     print("\n--- CENA 2: Sistema reserva também falhou! ---")
@@ -35,8 +38,11 @@ elif escolha1 == "B":
         print("\nA Terra enviou uma nave de resgate que chegou a tempo!")
         print("RESGATADO POR OUTRA NAVE! 🛸")
     else:
-        print("\nOs tanques deram oxigênio suficiente para voltar!")
-        print("VOLTA PARA A TERRA EM SEGURANÇA! 🌍")
+        if escolha2 == "B":
+            print("\nOs tanques deram oxigênio suficiente para voltar!")
+            print("VOLTA PARA A TERRA EM SEGURANÇA! 🌍")
+        else:
+            print("\nOpção inválida! Digite apenas A ou B.")
 
 else:
     print("\nOpção inválida! Digite apenas A ou B.")
