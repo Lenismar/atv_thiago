@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Google</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #000000;
+    }
+
+    /* Barra superior direita */
+    .top-bar {
+      text-align: right;
+      padding: 6px 10px;
+    }
+
+    .top-bar a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 10px;
+      font-size: 11px;
+    }
+
+    .top-bar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container central */
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+    }
+
+    /* Logo do Google */
+    .logo img {
+      width: 270px;
+      margin-bottom: 20px;
+    }
+
+    /* Campo de busca */
+    .search-box {
+      margin-bottom: 16px;
+    }
+
+    .search-box input[type="text"] {
+      width: 440px;
+      height: 26px;
+      border: 1px solid #999;
+      padding: 2px 6px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    .search-box input[type="text"]:focus {
+      border-color: #4d90fe;
+      box-shadow: 0 0 3px #4d90fe;
+    }
+
+    /* Botões */
+    .buttons {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .buttons input[type="submit"] {
+      height: 26px;
+      padding: 0 10px;
+      font-size: 12px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      color: #000;
+    }
+
+    .buttons input[type="submit"]:hover {
+      border-color: #999;
+      background-color: #e8e8e8;
+    }
+
+    /* Link "Ir para o Google.com.br" */
+    .lang-link {
+      font-size: 12px;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .lang-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Rodapé */
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f0f0f0;
+      border-top: 1px solid #ccc;
+      padding: 6px 0;
+      text-align: center;
+      font-size: 11px;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-divider {
+      margin: 4px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra superior direita -->
+  <div class="top-bar">
+    <a href="#">Web</a>
+    <a href="#">Images</a>
+    <a href="#">Groups</a>
+    <a href="#">News</a>
+    <a href="#">Froogle</a>
+    <a href="#">Local</a>
+    <a href="#">more »</a>
+    &nbsp;&nbsp;
+    <a href="#">Sign in</a>
+  </div>
+
+  <!-- Área central -->
+  <div class="center">
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="google-artigo-4.jpg" alt="Google" />
+    </div>
+
+    <!-- Formulário de busca -->
+    <form action="#" method="get">
+      <div class="search-box">
+        <input type="text" name="q" placeholder="Enter your search terms..." />
+      </div>
+      <div class="buttons">
+        <input type="submit" value="Google Search" />
+        <input type="submit" value="I'm Feeling Lucky" />
+      </div>
+    </form>
+
+    <!-- Link de idioma -->
+    <a class="lang-link" href="#">
+      or <u>browse the web pages in Portuguese</u>
+    </a>
+
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div>
+      <a href="#">Advertising Programs</a>
+      <a href="#">Business Solutions</a>
+      <a href="#">About Google</a>
+    </div>
+    <div class="footer-divider">
+      &copy;2026 Google - <a href="#">Searching 8,058,044,651 web pages</a>
+    </div>
+  </footer>
+
+</body>
+</html>
